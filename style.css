@@ -1,0 +1,60 @@
+/*CSS style*/
+
+body {
+/*  min-height: 2000px;*/
+  padding-top: 50px;
+  background-image: url(img/bg9.png);
+}
+
+.wrapper {
+  background:transparent;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: yellow;
+}
+
+/*
+body > .container {
+  padding: 10px 0 0 0;
+}
+*/
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: yellow;
+  }
+
+  footer {
+  background-color: green;
+  }
+}
+
+
+@media (max-width: 480px) {
+  body {
+    background-color: green;
+  }
+
+  footer {
+  background-color: yellow;
+  }
+}
+
