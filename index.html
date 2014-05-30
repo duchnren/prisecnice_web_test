@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="cs">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <title>Test</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="alternate stylesheet" href="/css/english.css" title="english" media="screen"/>
+    <link rel="alternate stylesheet" href="/css/french.css" title="french" media="screen"/>
+    <link rel="stylesheet" href="/css/bootstrap.css"/>
+
+    <script src="lib/styleswitch.js"></script>
+
+    <title>Přísečnice / Pressnitz</title>
   </head>
   <body>
     <nav>
@@ -18,10 +23,11 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">Přísečnice</a>
+            <a href="index.html" class="navbar-brand"><b><span class="czech">Přísečnice</span><span class="english">Pressnitz</span><span class="french">Pressnitz</span></b></a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
+              <li><a href="first.html"><span class="czech">Úvod</span><span class="english">Introduction</span><span class="french">Introduction</span></a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">O Obci <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -42,22 +48,36 @@
               <li><a href="#">Kontakt</a></li>
             </ul>
           </div>
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <span class="czech">Jazyk</span><span class="english">Language</span><span class="french">Langue</span> <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="javascript:chooseStyle('none',60)"><b>Česky</b></a></li>
+              <li><a href="javascript:chooseStyle('english',60)"><b>English</b></a></li>
+              <li><a href="javascript:chooseStyle('french',60)"><b>Fran&ccedil;ais</b></a></li>
+            </ul>
         </div>
       </div>
     </nav>
 
-    <div class="container">
-      <header>
-        <img src="/img/front2.png" alt="front">
-      </header>
-      <div class="wrapper">
-
+    <div class="wrapper">
+      <div class="container">
+        <header>
+          <h1 class="title"><b>Rekonstrukce zaniklé obce Přísečnice</b></h1>
+        </header>
+        <p class="front">
+          <img src="/img/line_up.png" alt=""/>
+          <br>
+          <b>Stránky o znovuzrození městečka ze severu Čech</b>
+          <br>
+          <img src="/img/line_down.png" alt=""/>
+          <img src="/img/front6.png" alt="front"/>
+        </p>
       </div>
-
     </div>
 
     <footer class="navbar-fixed-bottom">
-      <div class="container">Paticka</div>
+      <div class="container paticka">&copy; Ing. Renata Duchnová</div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
