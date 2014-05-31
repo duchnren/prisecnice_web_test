@@ -5,6 +5,7 @@
 body {
 /*  min-height: 2000px;*/
   padding-top: 50px;
+  padding-bottom: 25px;
   background-image: url(img/bg9.png);
 }
 
@@ -12,9 +13,13 @@ header {
 }
 
 p {
-  font-family: 'Fanwood Text', serif;
-  font-size: 14pt;
+  font-family: "Times New Roman", Times, serif;
   text-align: justify;
+  padding: 0;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 1.4em;
+  font-weight: normal;
 }
 
 img {
@@ -32,9 +37,14 @@ img {
 }
 
 .front {
+  font-family: 'Fanwood Text', serif;
   font-size: 20pt;
   text-align: center;
   margin: 0 auto;
+}
+
+.textRight {
+  text-align: right;
 }
 
 .paticka {
