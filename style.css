@@ -2,6 +2,11 @@
 
 @import url(http://fonts.googleapis.com/css?family=Cantata+One|Fanwood+Text:400,400italic);
 
+html {
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+}
+
 body {
 /*  min-height: 2000px;*/
   padding-top: 50px;
@@ -13,7 +18,7 @@ header {
 }
 
 p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif;*/
   text-align: justify;
   padding: 0;
   margin: 0;
@@ -77,6 +82,25 @@ body > .container {
 
 .english {
   display: none;
+}
+
+.zajuz_tab {
+  margin-left: 15px;
+  text-align: center;
+  border-collapse: collapse;
+  float: right;
+}
+
+.zajuz_tab2 {
+  margin-right: 15px;
+  text-align: center;
+  border-collapse: collapse;
+  float: left;
+}
+
+.label_pic {
+  font-size: 10.5pt;
+
 }
 
 footer > .container {
