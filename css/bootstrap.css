@@ -291,12 +291,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #8a6d3b;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #8a6d3b;
   text-decoration: underline;
 }
 a:focus {
@@ -1596,7 +1596,7 @@ table th[class*="col-"] {
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #ddd;
+/*    border: 1px solid #ddd;*/
   }
   .table-responsive > .table {
     margin-bottom: 0;

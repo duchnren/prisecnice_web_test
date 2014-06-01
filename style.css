@@ -31,6 +31,31 @@ img {
   max-width: 100%;
 }
 
+aside {
+  float: left;
+  margin-right: 15px;
+  width: 45%;
+  max-height: 150px;
+  overflow: auto;
+}
+
+.aktual {
+  padding: 5px 15px;
+  text-align: justify;
+  line-height: 1.4em;
+  color: #8a6d3b;
+}
+
+.aktual p {
+  margin: 0;
+  padding: 0;
+}
+
+.new {
+  padding: 0;
+  margin: 0;
+}
+
 .wrapper {
   background-image: url(img/bg10.png);
 }
@@ -101,6 +126,7 @@ body > .container {
 .label_pic {
   font-family: "Times New Roman", Times, serif;
   font-size: 10pt;
+  text-align: center;
 }
 
 .table td {
@@ -111,11 +137,19 @@ body > .container {
   border-bottom: 2px solid #5c0808;
   text-align: center;
 }
-/*
-.thumb {
-	margin-bottom: 30px;
+
+.gal {
+  margin: 0 auto;
 }
-*/
+
+.gal td {
+  padding: 0 10px;
+}
+
+.sketch {
+  float: left;
+  margin: 0 15px;
+}
 
 footer > .container {
   padding-right: 15px;
