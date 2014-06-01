@@ -85,22 +85,43 @@ body > .container {
 }
 
 .zajuz_tab {
-  margin-left: 15px;
+  margin: 0 15px;
   text-align: center;
   border-collapse: collapse;
   float: right;
 }
 
 .zajuz_tab2 {
-  margin-right: 15px;
+  margin: 0 15px;
   text-align: center;
   border-collapse: collapse;
   float: left;
 }
 
 .label_pic {
-  font-size: 10.5pt;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10pt;
+}
 
+.vyvoj {
+  width: 50%;
+  margin: 10px auto;
+  border: 1px solid rgb(184, 182, 182);
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.vyvoj th {
+  text-align: center;
+  border: 1px solid rgb(184, 182, 182);
+}
+
+.vyvoj td {
+  border-right: 1px solid rgb(184, 182, 182);
+}
+
+.thumb {
+	margin-bottom: 30px;
 }
 
 footer > .container {
