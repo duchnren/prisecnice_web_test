@@ -103,26 +103,19 @@ body > .container {
   font-size: 10pt;
 }
 
-.vyvoj {
-  width: 50%;
-  margin: 10px auto;
-  border: 1px solid rgb(184, 182, 182);
+.table td {
+  border-right: 1px solid #5c0808;
+}
+
+.fr_line {
+  border-bottom: 2px solid #5c0808;
   text-align: center;
-  border-collapse: collapse;
 }
-
-.vyvoj th {
-  text-align: center;
-  border: 1px solid rgb(184, 182, 182);
-}
-
-.vyvoj td {
-  border-right: 1px solid rgb(184, 182, 182);
-}
-
+/*
 .thumb {
 	margin-bottom: 30px;
 }
+*/
 
 footer > .container {
   padding-right: 15px;
