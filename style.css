@@ -160,6 +160,12 @@ body > .container {
   font-family: "Times New Roman", Times, serif;
 }
 
+.map {
+  margin: 0 auto;
+  height: 600px;
+  width: 50%;
+}
+
 footer > .container {
   padding-right: 15px;
   padding-left: 15px;
