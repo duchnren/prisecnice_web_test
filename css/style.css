@@ -39,6 +39,10 @@ aside {
   overflow: auto;
 }
 
+table a:link {
+  text-decoration: none;
+}
+
 .aktual {
   padding: 5px 15px;
   text-align: justify;
@@ -160,68 +164,44 @@ body > .container {
   font-family: "Times New Roman", Times, serif;
 }
 
-#map {
-  width: 100%;
-  height: 300px;
-  float: left;
-  border: 1px solid #8a6d3b;
-  margin-bottom: 20px;
-}
-
-#list {
-  float: left;
-  width: 28%;
-  height: 670px;
-  overflow: auto;
-  border: 1px solid #8a6d3b;
-  font-family: "Times New Roman", Times, serif;
-  margin: 0 0 10px 0;
-}
-
-.list td {
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom: 1px solid #bf9f68;
-}
-
-.three {
-  background-color: rgb(229,196,69);
-}
-
-.unity{
-  background-color: rgb(193,179,124);
-}
-
-.gall{
-  background-color: rgb(189,162,148);
-}
-
-.devel{
-  background-color: rgb(218,215,208);
-}
-
-.sloup1 {
-  width: 35%;
-  text-align: justify;
-}
-
-.sloup2 {
-  width: 5%;
-  text-align: center;
-
-}
-
-table a:link {
-  text-decoration: none;
-}
-
 .home{
   margin-left: -17px;
   margin-top: -20px;
 }
 
+.mapsec {
+  width: 48%;
+  float: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12pt;
+  line-height: 1.2em;
+}
+
+#map {
+  width: 100%;
+  height: 450px; /*300px*/
+  border: 1px solid #8a6d3b;
+  margin-bottom: 5px;
+}
+
+.but2 {
+  padding: 3px 10px;
+  margin: 5px 0;
+/*  float: right;*/
+}
+
+#swipe {
+  margin: 12px 0;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  background-color: #8a6d3b;
+  height: 5px;
+  outline: none;
+}
+
 #formular {
-  margin-top: 320px;
   font-family: "Times New Roman", Times, serif;
   font-size: 12pt;
   line-height: 1.2em;
@@ -238,10 +218,16 @@ table a:link {
   margin-bottom: 10px;
 }
 
-.but2 {
-  padding: 3px 10px;
-  margin-bottom: 10px;
+.modelsec {
   float: right;
+  width: 50%;
+/*  height: 490px;  */
+}
+
+.frame {
+  width: 100%;
+  height: 472px;
+  background-color: #f0f0f0;
 }
 
 #obsah-popis {
@@ -267,22 +253,8 @@ table a:link {
   overflow: auto;
 }
 
-#obsah-model {
-  margin-top: 70px;
-  margin-bottom: 10px;
-  float: right;
-  width: 50%;
-/*  overflow-y: hidden;*/
-}
-
 .photo {
   float: right;
-}
-
-.frame {
-  width: 100%;
-  height: 400px;
-/*  overflow-y: hidden;*/
 }
 
 footer > .container {
