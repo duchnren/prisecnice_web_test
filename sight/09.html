@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="../css/jquery.fancybox.css" media="screen">
+  <title>Model 09</title>
+  <style>body {overflow: hidden}
+         div { width: 100%;
+               height: 453px;
+               background-image: url(../img/start.png);
+               margin: 0 auto }</style>
+  </head>
+  <body>
+		<div>
+      <a class="various" data-fancybox-type="iframe" href="09_new/09_new.html"><img src="../img/09_model.png" alt=""/></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="lib/jquery.fancybox.js"></script>
+    <script>
+      $(document).ready(function(){
+    //FANCYBOX
+    //https://github.com/fancyapps/fancyBox
+        $(".fancybox-button").fancybox({
+          prevEffect: "none",
+          nextEffect: "none",
+          helpers: {
+            title: {type: "inside"},
+            buttons: {},
+            thumbs: {width:50, height: 50}
+          }
+        });
+        $(".various").fancybox({
+          maxWidth: 800,
+          fitToView: false,
+//          width: "70%",
+//          height: "70%",
+          autoSize: false,
+          closeClick: false,
+          openEffect: "none",
+          closeEffect: "none"
+        })
+      });
+    </script>
+  </body>
+</html>

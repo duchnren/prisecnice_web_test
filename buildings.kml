@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://earth.google.com/kml/2.2">
+<kml>
 <Document>
 	<name>Info o domech</name>
 	<Style id="sn_sunny_copy68">
 		<IconStyle>
-			<scale>1.2</scale>
+			<scale>0.1</scale>
 			<Icon>
-				<href>../img/home.png</href>
+				<href>img/home.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.2" xunits="fraction" yunits="fraction"/>
+			<hotSpot x="0.5" y="0.3" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<LabelStyle>
 			<color>ff00aaff</color>
@@ -32,1126 +31,171 @@
 		<Folder>
 			<name>Modely staveb</name>
       <Placemark>
-				<name>1</name>
-				<description><![CDATA[]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1385,-1010,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
 				<name>2/3</name>
-				<description><![CDATA[<a href="cp3.html" id="cp3" target="_blank" class="various" data-fancybox-type="iframe">info</a>]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1269,-1375,0</coordinates>
+					<coordinates>1482,1559,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
-				<name>4</name>
-				<description><![CDATA[<p><img src="../img/4.jpg" width="180"></p><p><a href="hn004.html">Enter</a></p>
-]]></description>
+				<name>4</name>			
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1266,-1293,0</coordinates>
+					<coordinates>1478,1640,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>5</name>
-				<description><![CDATA[<p><img src="../img/5.jpg" width="180"></p><p><a href="hn005.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1261,-1255,0</coordinates>
+					<coordinates>1475,1675,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>6</name>
-				<description><![CDATA[<p><img src="../img/6_3.JPG" width="180"></p><p><a href="hn006.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1260,-1214,0</coordinates>
+					<coordinates>1473,1714,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>7</name>
-				<description><![CDATA[<p><img src="../img/7.jpg" width="180"></p><p><a href="hn007.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1255,-1176,0</coordinates>
+					<coordinates>1468,1751,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>8</name>
-				<description><![CDATA[<p><img src="../img/8.jpg" width="100"></p><p><a href="hn008.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1250,-1143,0</coordinates>
+					<coordinates>1463,1784,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>9</name>
-				<description><![CDATA[<p><img src="../img/9_2.JPG" width="200"></p><p><a href="hn009.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1245,-1105,0</coordinates>
+					<coordinates>1456,1817,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>10/11</name>
-				<description><![CDATA[<p><img src="../img/10.png" width="200"></p><p><a href="hn010.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1237,-1058,0</coordinates>
+					<coordinates>1450,1867,0</coordinates>
 				</Point>
 			</Placemark>      
       <Placemark>
 				<name>15</name>
-				<description><![CDATA[<p><img src="../img/15.jpg" width="180"></p><p><a href="hn015.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1250,-909,0</coordinates>
+					<coordinates>1462,2014,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>16</name>
-				<description><![CDATA[<p><img src="../img/16.jpg" width="180"></p><p><a href="hn016.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1280,-900,0</coordinates>
+					<coordinates>1488,2021,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>17</name>
-				<description><![CDATA[<p><img src="../img/17.jpg" width="180"></p><p><a href="hn017.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1300,-894,0</coordinates>
+					<coordinates>1509,2028,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>18</name>
-				<description><![CDATA[<p><img src="../img/18.jpg" width="180"></p><p><a href="hn018.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1326,-883,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>20/21</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1178,-915,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>26</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1286,-744,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>35</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1447,-512,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>49</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1456,-828,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>50</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1424,-856,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>51</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1380,-862,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>52</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1435,-956,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>58</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1800,-905,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>59</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1543,-1066,0</coordinates>
+					<coordinates>1534,2039,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>60</name>
-				<description><![CDATA[<p><img src="../img/60_1.jpg" width="180"></p><p><a href="hn060.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1557,-1115,0</coordinates>
+					<coordinates>1756,1813,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>61</name>
-				<description><![CDATA[<p><img src="../img/61-62.jpg" width="180"></p><p><a href="hn060.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1567,-1150,0</coordinates>
+					<coordinates>1771,1773,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>62</name>
-				<description><![CDATA[<p><img src="../img/61-62.jpg" width="180"></p><p><a href="hn060.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1558,-1181,0</coordinates>
+					<coordinates>1759,1752,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
-				<name>66</name>
-				<description><![CDATA[
-]]></description>
+				<name>69</name>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1709,-1234,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>67</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1706,-1321,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>68</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1619,-1281,0</coordinates>
+					<coordinates>1749,1643,0</coordinates>
 				</Point>
 			</Placemark>      
       <Placemark>
-				<name>415</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1579,-1282,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
 				<name>70</name>
-				<description><![CDATA[<p><img src="../img/70.png" width="180"></p><p><a href="hn070.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1521,-1293,0</coordinates>
+					<coordinates>1725,1636,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>71</name>
-				<description><![CDATA[<p><img src="../img/71.png" width="180"></p><p><a href="hn071.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1501,-1297,0</coordinates>
+					<coordinates>1705,1634,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>72</name>
-				<description><![CDATA[<p><img src="../img/72.jpg" width="200"></p><p><a href="hn072.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1459,-1301,0</coordinates>
+					<coordinates>1667,1629,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>73</name>
-				<description><![CDATA[<p><img src="../img/73.png" width="180"></p><p><a href="hn073.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1454,-1330,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>75</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1376,-1372,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>76</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1388,-1296,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>77</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1356,-1301,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>79</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1356,-1351,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>85</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1716,-1398,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>87</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1730,-1460,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>89</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1754,-1497,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>92</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1787,-1562,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>93</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1804,-1593,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>94</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1826,-1619,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>96</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1867,-1699,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>101/102</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1995,-1840,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>119</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>2029,-2229,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>121</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>2026,-2351,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>122</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>2021,-2376,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>123</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>2036,-2418,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>125</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>2038,-2459,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>137</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1910,-2669,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>138</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1903,-2653,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>142</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1814,-2550,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>146</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1818,-2473,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>147</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1820,-2453,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>154</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1833,-2278,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>155</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1834,-2258,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>173</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1855,-1914,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>174</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1848,-1882,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>175</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1838,-1848,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>184</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1588,-1558,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>185</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1563,-1553,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>188</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1458,-1526,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>189</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1417,-1471,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>193</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1363,-1432,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>194</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1335,-1446,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>195</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1357,-1556,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>197</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1441,-1639,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>198</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1462,-1655,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>201</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1500,-1702,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>202</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1515,-1720,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>205</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1569,-1774,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>206</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1589,-1797,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>207</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1613,-1819,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>208</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1669,-1863,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>214</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1689,-1978,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>215</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1668,-1962,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>216</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1638,-1938,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>218</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1593,-1891,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>222</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1514,-1806,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>226</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1436,-1736,0</coordinates>
+					<coordinates>1658,1600,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>227</name>
-				<description><![CDATA[<p><img src="../img/227_1.jpg" width="150"></p><p><a href="hn227.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1406,-1710,0</coordinates>
+					<coordinates>1615,1229,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>229</name>
-				<description><![CDATA[<p><img src="../img/229.jpg" width="150"></p><p><a href="hn229.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1307,-1711,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>239</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1039,-1716,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>241</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>983,-1690,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>249</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>700,-1744,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>250</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>725,-1738,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>251</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>744,-1732,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>262</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1324,-1623,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>263</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1312,-1566,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>269</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1143,-1475,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>273</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1006,-1512,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>281</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>955,-1550,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>285</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>878,-1538,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>307</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>523,-1566,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>310</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>643,-1528,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>311</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>660,-1525,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>325</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>742,-1496,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>326</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>762,-1487,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>328</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>812,-1469,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>333</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>921,-1434,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>343</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>910,-1198,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>345</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>938,-1142,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>350</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1000,-1041,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>353</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1012,-950,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>362</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1162,-1348,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>363</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1135,-1282,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>366</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>968,-1343,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>368</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1017,-1407,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>369</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1054,-1405,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>372</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1160,-1385,0</coordinates>
+					<coordinates>1517,1228,0</coordinates>
 				</Point>
 			</Placemark>
       <Placemark>
 				<name>373</name>
-				<description><![CDATA[<p><img src="../img/373.jpg" width="150"></p><p><a href="hn373.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>1223,-1384,0</coordinates>
-				</Point>
-			</Placemark>
-            <Placemark>
-				<name>69</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1546,-1286,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>416</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1631,-1321,0</coordinates>
+					<coordinates>1432,1555,0</coordinates>
 				</Point>
 			</Placemark>      
       <Placemark>
 				<name>423</name>
-				<description><![CDATA[<p><img src="../img/423_25.jpg" width="200"></p><p><a href="hn423.html">Enter</a></p>
-]]></description>
 				<styleUrl>#msn_sunny_copy69</styleUrl>
 				<Point>
-					<coordinates>2037,-2799,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>442</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1298,-387,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>460</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1643,-1191,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>462</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>2005,-2599,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>463</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1613,-1195,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>465</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1399,-650,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>466</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1402,-618,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>467</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1399,-602,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>468</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>1399,-586,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>481</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>2021,-2400,0</coordinates>
-				</Point>
-			</Placemark>
-      <Placemark>
-				<name>484</name>
-				<description><![CDATA[
-]]></description>
-				<styleUrl>#msn_sunny_copy69</styleUrl>
-				<Point>
-					<coordinates>131,-1665,0</coordinates>
+					<coordinates>2226,179,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
