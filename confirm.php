@@ -1,3 +1,129 @@
+<?php
+
+
+if(isset($_POST['email'])) {
+
+
+
+    // EDIT THE 2 LINES BELOW AS REQUIRED
+
+    $email_to = "prisecnice@email.cz";
+
+    $email_subject = "=?UTF-8?B?".base64_encode("Pozdrav z Přísečnice")."?=";
+
+
+
+
+
+    function died($error) {
+
+        // your error code can go here
+
+        echo "Omlouvám se, ale ve formuláři, který jste vyplnili, jsou chyby. ";
+
+        echo "Tyto chyby jsou vypsány niže.<br />";
+
+        echo "Vraťte se zpět a opravte tyto chyby.<br /><br />";
+
+        echo "I am very sorry, but there were error(s) found with the form you submitted. ";
+
+        echo "These errors appear below.<br />";
+
+        echo "Please go back and fix these errors.<br /><br />";
+
+        echo $error."<br /><br />";
+
+        die();
+
+    }
+
+
+
+    // validation expected data exists
+
+    if(!isset($_POST['name']) ||
+
+        !isset($_POST['email']) ||
+
+        !isset($_POST['comments'])) {
+
+        died('Omlouvám se, ale zdá se, že políčka jsou špatně vyplněna. (I am sorry, but there appears to be a problem with the form you submitted.)');
+
+    }
+
+
+
+    $name = $_POST['name']; // required
+
+    $email_from = $_POST['email']; // required
+
+    $comments = $_POST['comments']; // required
+
+
+
+    $error_message = "";
+
+    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+
+  if(!preg_match($email_exp,$email_from)) {
+
+    $error_message .= 'Vyplněná e-mailová adresa není platná. (The Email Address you entered does not appear to be valid.)<br />';
+
+  }
+
+  if(strlen($comments) < 2) {
+
+    $error_message .= 'Vyplněný komentář není platný. (The Comments you entered do not appear to be valid.)<br />';
+
+  }
+
+  if(strlen($error_message) > 0) {
+
+    died($error_message);
+
+  }
+
+    $email_message = "Zpráva:\n\n";
+
+
+
+
+    function clean_string($string) {
+
+      $bad = array("content-type","bcc:","to:","cc:","href");
+
+      return str_replace($bad,"",$string);
+
+    }
+
+
+
+    $email_message .= "Jméno: ".clean_string($name)."\n";
+
+    $email_message .= "Email: ".clean_string($email_from)."\n";
+
+    $email_message .= "Komentář: ".clean_string($comments)."\n";
+
+
+
+
+// create email headers
+
+$headers = 'From: '.$email_from."\r\n".
+
+'Content-Type: text/plain; charset=utf-8'."\n".
+
+'Content-Transfer-Encoding: 8bit'."\n".
+
+'Reply-To: '.$email_from."\r\n" .
+
+'X-Mailer: PHP/' . phpversion();
+
+@mail($email_to, $email_subject, $email_message, $headers);
+
+?>
+<!-- include your own success html here -->
+<!--Thank you for contacting us. We will be in touch with you very soon.-->
 <!DOCTYPE html>
 <html lang="cs">
   <head>
@@ -104,55 +230,17 @@
         <span class="english">Contact</span>
         <span class="french"></span></h2>
 
-        <div class="pole">
-          <form role="form" name="contactform" action="confirm.php" method="post" class="form-horizontal">
-            <div class="form-group">
-              <label for="name" class="col-sm-2 control-label">
-                <span class="czech">Jméno: *</span>
-                <span class="english">Name: *</span>
-                <span class="french"></span>
-              </label>
-              <div class="col-sm-5">
-                <input type="text" class="form-control" id="name" name="name">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="email" class="col-sm-2 control-label">
-                Email: *
-              </label>
-              <div class="col-sm-5">
-                <input type="text" class="form-control" id="email" name="email">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="comments" class="col-sm-2 control-label">
-                <span class="czech">Komentář: *</span>
-                <span class="english">Comments: *</span>
-                <span class="french"></span>
-              </label>
-              <div class="col-sm-5">
-                <textarea class="form-control" id="comments" name="comments" rows="5"></textarea>
-              </div>
-            </div>
-            <div class="form-group text">
-              <div class="col-sm-offset-2 col-sm-10">
-                <button class="btn btn-default" type="submit">
-                  <span class="czech">Odeslat</span>
-                  <span class="english">Send</span>
-                  <span class="french"></span>
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
+        <p><span class="czech">Děkuji Vám za zprávu.</span>
+        <span class="english">Thank you for contacting me.</span>
+        <span class="french"></span></p>
+
+        <p><a href="contakt.html"><span class="czech">Zpět</span>
+        <span class="english">Back</span>
+        <span class="french"></span></a></p>
 
         <div class="ja">
           <img src="img/ja.png" alt="">
         </div>
-
-        <p><span class="czech"></span>
-        <span class="english"></span>
-        <span class="french"></span></p>
       </div>
     </div>
 
@@ -177,3 +265,9 @@
     <script src="lib/bootstrap/bootstrap.min.js"></script>
   </body>
 </html>
+
+<?php
+
+}
+
+?>

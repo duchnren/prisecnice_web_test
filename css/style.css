@@ -269,6 +269,23 @@ input[type=range] {
   margin-bottom: 10px;
 }
 
+.text{
+  font-family: "Times New Roman", Times, serif;
+}
+.pole {
+  float: left;
+  width: 80%;
+}
+
+.ja {
+  float: right;
+  padding: 10px;
+  border-left: 2px solid #ababab;
+  border-top: 2px solid #ababab;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
 footer > .container {
   padding-right: 15px;
   padding-left: 15px;
