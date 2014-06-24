@@ -291,19 +291,26 @@ footer > .container {
   padding-left: 15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .title {
   font-size: 40pt;
   text-align: center;
   }
-
+  .mapsec {
+    width: 100%;
+  }
+  .modelsec {
+    width: 100%;
+  }
 }
 
 
+/*
 @media screen and (max-width: 480px){
   .title {
   font-size: 32pt;
   text-align: center;
   }
 }
+*/
 
