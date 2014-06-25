@@ -170,7 +170,7 @@ body > .container {
 }
 
 .mapsec {
-  width: 48%;
+/*  width: 48%;*/
   float: left;
   font-family: "Times New Roman", Times, serif;
   font-size: 12pt;
@@ -196,6 +196,8 @@ input[type=range] {
 }
 
 #formular {
+  padding-left: 10px;
+  padding-right: 10px;
   font-family: "Times New Roman", Times, serif;
   font-size: 12pt;
   line-height: 1.2em;
@@ -214,14 +216,19 @@ input[type=range] {
   margin-right: 10px;
 }
 
-.but:disabled {
+.checkbox-inline {
   color: #ababab;
 }
 
 .modelsec {
   float: right;
-  width: 50%;
+/*  width: 50%;*/
 /*  height: 490px;  */
+}
+
+.checkbox {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .frame {
@@ -244,7 +251,7 @@ input[type=range] {
   color: #ece2bb;
   margin-top: 20px;
   margin-bottom: 10px;
-  width: 68%;
+/*  width: 68%;*/
   float: right;
 }
 
@@ -264,7 +271,7 @@ input[type=range] {
 
 .photo {
   float: left;
-  width: 30%;
+/*  width: 30%;*/
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -296,12 +303,14 @@ footer > .container {
   font-size: 40pt;
   text-align: center;
   }
+/*
   .mapsec {
     width: 100%;
   }
   .modelsec {
     width: 100%;
   }
+*/
 }
 
 

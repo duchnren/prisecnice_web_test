@@ -121,27 +121,43 @@
           <span class="english">Clear</span>
           <span class="french">Nette</span></button>
 
+<!--
           <button id="but2" class="but" type="button" disabled>
           <span class="czech">Skrýt mapu</span>
           <span class="english">Hide the map</span>
           <span class="french"></span></button>
+-->
+           <label class="checkbox-inline checkMap">
+             <input id="checkMap" type="checkbox" value="option1" disabled>
+             <span class="czech hideMapCZ">Skrýt mapu</span>
+             <span class="english hideMapEN">Hide the map</span>
+             <span class="french hideMapFR"></span>
+           </label>
+
+           <label class="checkbox-inline checkDes">
+             <input id="checkDes" type="checkbox" value="option2" disabled>
+             <span class="czech hideDesCZ">Skrýt popis</span>
+             <span class="english hideDesEN">Hide the description</span>
+             <span class="french hideDesFR"></span>
+           </label>
 
         </form>
 
 
-        <div class="mapsec">
+        <div class="col-xs-12 col-sm-12 col-md-6 mapsec">
           <div id="map" class="map"></div>
           <input id="swipe" type="range" style="width: 100%">
         </div>
 
-        <div id="obsah-model" class="modelsec">
+        <div id="obsah-model" class="col-xs-12 col-sm-12 col-md-6 modelsec">
           <iframe class="frame" src="sight/start.html"></iframe>
         </div>
       </div>
     </div>
     <div class="container">
-      <div id="obsah-popis"></div>
-      <div id="photo"></div>
+     <div id="photo" class="col-xs-3 col-sm-3 col-md-3"></div>
+     <div id="obsah-popis" class="col-xs-9 col-sm-9 col-md-9"></div>
+
     </div>
 
 
