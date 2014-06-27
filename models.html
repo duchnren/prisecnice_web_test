@@ -13,6 +13,7 @@
     <link rel="icon" href="img/favicon.ico">
 
     <script src="lib/styleswitch.js"></script>
+<!--    <script src="http://ol3js.org/en/master/build/ol.js"></script>-->
 
     <title>Přísečnice / Pressnitz</title>
   </head>
@@ -117,29 +118,23 @@
           </select>
 
           <button id="but" class="but" type="button">
-          <span class="czech">Vyčistit</span>
-          <span class="english">Clear</span>
+          <span class="czech">Výchozí pohled</span>
+          <span class="english">Default view</span>
           <span class="french">Nette</span></button>
 
-<!--
-          <button id="but2" class="but" type="button" disabled>
-          <span class="czech">Skrýt mapu</span>
-          <span class="english">Hide the map</span>
-          <span class="french"></span></button>
--->
-           <label class="checkbox-inline checkMap">
-             <input id="checkMap" type="checkbox" value="option1" disabled>
-             <span class="czech hideMapCZ">Skrýt mapu</span>
-             <span class="english hideMapEN">Hide the map</span>
-             <span class="french hideMapFR"></span>
-           </label>
+          <label class="checkbox-inline checkMap">
+           <input id="checkMap" type="checkbox" value="option1" disabled>
+           <span class="czech hideMapCZ">Skrýt mapu</span>
+           <span class="english hideMapEN">Hide the map</span>
+           <span class="french hideMapFR"></span>
+          </label>
 
-           <label class="checkbox-inline checkDes">
-             <input id="checkDes" type="checkbox" value="option2" disabled>
-             <span class="czech hideDesCZ">Skrýt popis</span>
-             <span class="english hideDesEN">Hide the description</span>
-             <span class="french hideDesFR"></span>
-           </label>
+          <label class="checkbox-inline checkDes">
+           <input id="checkDes" type="checkbox" value="option2" disabled>
+           <span class="czech hideDesCZ">Popis</span>
+           <span class="english hideDesEN">Description</span>
+           <span class="french hideDesFR"></span>
+          </label>
 
         </form>
 
