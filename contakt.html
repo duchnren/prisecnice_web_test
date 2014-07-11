@@ -7,6 +7,7 @@
     <link rel="alternate stylesheet" href="css/lang/english.css" title="english" media="screen"/>
     <link rel="alternate stylesheet" href="css/lang/french.css" title="french" media="screen"/>
     <link rel="stylesheet" href="css/bootstrap/bootstrap.css"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="img/favicon.ico">
 
     <script src="lib/styleswitch.js"></script>
@@ -100,11 +101,32 @@
 
     <div class="wrapper">
       <div class="container">
+        <div id="switchform">
+          <ul>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <span class="czech">Jazyk</span>
+              <span class="english">Language</span>
+              <span class="french">Langue</span> <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                 <li><a href="javascript:chooseStyle('none', 60)">Česky</a></li>
+                 <li><a href="javascript:chooseStyle('english', 60)">English</a></li>
+<!--                 <li><a href="javascript:chooseStyle('french', 60)">Fran&ccedil;ais</a></li>-->
+               </ul>
+             </li>
+           </ul>
+         </div>
+       </div>
+      <div class="container">
         <h2><span class="czech">Kontakt</span>
         <span class="english">Contact</span>
         <span class="french"></span></h2>
 
-        <div class="pole">
+        <h3><span class="czech">Formulář</span>
+        <span class="english">Form</span>
+        <span class="french"></span></h3>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 pole">
           <form role="form" name="contactform" action="confirm.php" method="post" class="form-horizontal">
             <div class="form-group">
               <label for="name" class="col-sm-2 control-label">
@@ -146,13 +168,16 @@
           </form>
         </div>
 
-        <div class="ja">
-          <img src="img/ja.png" alt="">
+        <h3><span class="czech">Sociální sítě</span>
+        <span class="english">Social network</span>
+        <span class="french"></span></h3>
+
+        <div class="social">
+          <a href="http://ch.linkedin.com/pub/renata-duchnova/72/507/951/" title="LinkedIn"><i class="link fa fa-linkedin-square fa-2x"></i></a>
+          <a href="http://plus.google.com/+RenataDuchnova" title="Google+"><i class="goog fa fa-google-plus-square fa-2x"></i></a>
+          <a href="http://www.facebook.com/duchnren" title="Facebook"><i class="face fa fa-facebook-square fa-2x"></i></a>
         </div>
 
-        <p><span class="czech"></span>
-        <span class="english"></span>
-        <span class="french"></span></p>
       </div>
     </div>
 

@@ -226,6 +226,23 @@ $headers = 'From: '.$email_from."\r\n".
 
     <div class="wrapper">
       <div class="container">
+        <div id="switchform">
+          <ul>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <span class="czech">Jazyk</span>
+              <span class="english">Language</span>
+              <span class="french">Langue</span> <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                 <li><a href="javascript:chooseStyle('none', 60)">Česky</a></li>
+                 <li><a href="javascript:chooseStyle('english', 60)">English</a></li>
+<!--                 <li><a href="javascript:chooseStyle('french', 60)">Fran&ccedil;ais</a></li>-->
+               </ul>
+             </li>
+           </ul>
+         </div>
+       </div>
+      <div class="container">
         <h2><span class="czech">Kontakt</span>
         <span class="english">Contact</span>
         <span class="french"></span></h2>

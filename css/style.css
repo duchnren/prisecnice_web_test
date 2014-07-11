@@ -15,6 +15,7 @@ body {
 }
 
 header {
+  text-align: center;
 }
 
 p {
@@ -41,6 +42,19 @@ aside {
 
 table a:link {
   text-decoration: none;
+}
+
+#switchform {
+  float: right;
+}
+#switchform ul {
+  list-style: none;
+}
+#switchform a:hover, a:focus {
+  text-decoration: none;
+}
+#switchform ul {
+  min-width: 80px;
 }
 
 .aktual {
@@ -240,6 +254,9 @@ input[type=range] {
 .imgMod {
   border-left: 2px solid #ababab;
   border-top: 2px solid #ababab;
+  width: 100%;
+  height: 472px;
+  margin-bottom: 8px;
 }
 
 .hidden {
@@ -284,13 +301,24 @@ input[type=range] {
   width: 80%;
 }
 
+.social {
+  margin-left: 10px;
+
+}
+.social a {
+  color: #000;
+}
+.link, .face {
+  color: #165ef2;
+}
+.goog {
+  color: #e2310d;
+}
+
 .ja {
-  float: right;
-  padding: 10px;
-  border-left: 2px solid #ababab;
-  border-top: 2px solid #ababab;
-  background-color: white;
-  margin-bottom: 10px;
+  float: left;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 footer > .container {
