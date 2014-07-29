@@ -1,6 +1,5 @@
 /*CSS style*/
 
-@import url(http://fonts.googleapis.com/css?family=Cantata+One|Fanwood+Text:400,400italic);
 
 html {
   font-family: "Times New Roman", Times, serif;
@@ -30,6 +29,10 @@ p {
 
 img {
   max-width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 aside {
@@ -79,16 +82,16 @@ table a:link {
 }
 
 .title {
-  font-family: 'Fanwood Text', serif;
   font-size: 48pt;
   text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .front {
-  font-family: 'Fanwood Text', serif;
   font-size: 20pt;
   text-align: center;
   margin: 0 auto;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .textRight {
@@ -98,6 +101,10 @@ table a:link {
 .paticka {
   text-align: center;
   vertical-align: middle;
+}
+
+.right {
+  float: right;
 }
 
 footer {
@@ -128,17 +135,21 @@ body > .container {
 }
 
 .zajuz_tab {
-  margin: 0 15px;
+  margin-left: 15px;
   text-align: center;
   border-collapse: collapse;
   float: right;
 }
 
 .zajuz_tab2 {
-  margin: 0 15px;
+  margin: 0 5px;
   text-align: center;
   border-collapse: collapse;
   float: left;
+}
+
+.reser {
+  margin: 0 auto;
 }
 
 .label_pic {
@@ -151,9 +162,17 @@ body > .container {
   border-right: 1px solid #5c0808;
 }
 
+.tabulka td {
+  text-align: center;
+}
+
 .fr_line {
   border-bottom: 2px solid #5c0808;
-  text-align: center;
+/*  text-align: center;*/
+}
+
+.tab_width {
+  width: 100%;
 }
 
 .gal {
@@ -218,7 +237,7 @@ input[type=range] {
 }
 
 #coo {
-  width: 10%;
+  width: 120px;
   padding: 3px 0;
   margin-right: 10px;
 }
@@ -232,6 +251,10 @@ input[type=range] {
 
 .checkbox-inline {
   color: #ababab;
+}
+
+.hideMap{
+  width: 120px;
 }
 
 .modelsec {

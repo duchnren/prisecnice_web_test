@@ -163,6 +163,12 @@ $headers = 'From: '.$email_from."\r\n".
                 <span class="english">Town</span>
                 <span class="french">Le village</span> <b class="caret"></b></a>
                 <ul class="dropdown-menu">
+                  <li><a href="loc_his.html">
+                  <span class="czech">O Obci</span>
+                  <span class="english">The town</span>
+                  <span class="french">Le village</span>
+                  </a></li>
+<!--
                   <li><a href="location.html">
                   <span class="czech">Poloha</span>
                   <span class="english">Location</span>
@@ -178,6 +184,7 @@ $headers = 'From: '.$email_from."\r\n".
                   <span class="english">Urban development</span>
                   <span class="french">Le développement urbain du village</span>
                   </a></li>
+-->
                   <li><a href="landUse.html">
                   <span class="czech">Vývoj využití ploch</span>
                   <span class="english">Land Use</span>
@@ -218,6 +225,17 @@ $headers = 'From: '.$email_from."\r\n".
               <span class="english">Contact</span>
               <span class="french">Le contact</span>
               </a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="czech">Jazyk</span>
+                <span class="english">Language</span>
+                <span class="french">Langue</span> <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="javascript:chooseStyle('none', 60)">Česky</a></li>
+                  <li><a href="javascript:chooseStyle('english', 60)">English</a></li>
+<!--                 <li><a href="javascript:chooseStyle('french', 60)">Fran&ccedil;ais</a></li>-->
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -225,23 +243,6 @@ $headers = 'From: '.$email_from."\r\n".
     </nav>
 
     <div class="wrapper">
-      <div class="container">
-        <div id="switchform">
-          <ul>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <span class="czech">Jazyk</span>
-              <span class="english">Language</span>
-              <span class="french">Langue</span> <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                 <li><a href="javascript:chooseStyle('none', 60)">Česky</a></li>
-                 <li><a href="javascript:chooseStyle('english', 60)">English</a></li>
-<!--                 <li><a href="javascript:chooseStyle('french', 60)">Fran&ccedil;ais</a></li>-->
-               </ul>
-             </li>
-           </ul>
-         </div>
-       </div>
       <div class="container">
         <h2><span class="czech">Kontakt</span>
         <span class="english">Contact</span>

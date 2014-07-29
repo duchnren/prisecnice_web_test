@@ -41,6 +41,12 @@
                 <span class="english">Town</span>
                 <span class="french">Le village</span> <b class="caret"></b></a>
                 <ul class="dropdown-menu">
+                  <li><a href="loc_his.html">
+                  <span class="czech">O Obci</span>
+                  <span class="english">The town</span>
+                  <span class="french">Le village</span>
+                  </a></li>
+<!--
                   <li><a href="location.html">
                   <span class="czech">Poloha</span>
                   <span class="english">Location</span>
@@ -56,6 +62,7 @@
                   <span class="english">Urban development</span>
                   <span class="french">Le développement urbain du village</span>
                   </a></li>
+-->
                   <li><a href="landUse.html">
                   <span class="czech">Vývoj využití ploch</span>
                   <span class="english">Land Use</span>
@@ -96,6 +103,17 @@
               <span class="english">Contact</span>
               <span class="french">Le contact</span>
               </a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="czech">Jazyk</span>
+                <span class="english">Language</span>
+                <span class="french">Langue</span> <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="javascript:chooseStyle('none', 60)">Česky</a></li>
+                  <li><a href="javascript:chooseStyle('english', 60)">English</a></li>
+<!--                 <li><a href="javascript:chooseStyle('french', 60)">Fran&ccedil;ais</a></li>-->
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -103,58 +121,38 @@
     </nav>
 
     <div class="wrapper">
-     <div class="container">
-        <div id="switchform">
-          <ul>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <span class="czech">Jazyk</span>
-              <span class="english">Language</span>
-              <span class="french">Langue</span> <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                 <li><a href="javascript:chooseStyle('none', 60)">Česky</a></li>
-                 <li><a href="javascript:chooseStyle('english', 60)">English</a></li>
-<!--                 <li><a href="javascript:chooseStyle('french', 60)">Fran&ccedil;ais</a></li>-->
-               </ul>
-             </li>
-           </ul>
-         </div>
-       </div>
       <div class="container">
         <h2><span class="czech">Modely budov</span>
         <span class="english">Models</span>
         <span class="french">Des modèles de bâtiments</span></h2>
 
         <form id="formular">
-          <span class="czech">č. p.:</span>
-          <span class="english">N&deg;</span>
-          <span class="french">N&deg;</span>
-
-          <select id="coo" name="coo" class="vyber">
-            <option selected="selected" value="br" id="0">-------</option>
-          </select>
+          <label class="vyber">
+<!--
+            <span class="czech">č. p.: </span>
+            <span class="english">N&deg;: </span>
+-->
+            <select id="coo" name="coo" class="vyber">
+              <option selected="selected" value="br" id="0">-------</option>
+            </select>
+          </label>
 
           <button id="but" class="but" type="button">
-          <span class="czech">Výchozí pohled</span>
-          <span class="english">Default view</span>
-          <span class="french">Nette</span></button>
+            <span class="czech">Výchozí pohled</span><span class="english">Default view</span>
+          </button>
 
           <label class="checkbox-inline checkMap">
-           <input id="checkMap" type="checkbox" value="option1" disabled>
-           <span class="czech hideMapCZ">Skrýt mapu</span>
-           <span class="english hideMapEN">Hide the map</span>
-           <span class="french hideMapFR"></span>
+            <input id="checkMap" type="checkbox" value="option1" disabled>
+            <span class="hideMap czech">Skrýt mapu</span>
+            <span class="hideMap english">Hide the map</span>
           </label>
 
           <label class="checkbox-inline checkDes">
-           <input id="checkDes" type="checkbox" value="option2" disabled checked>
-           <span class="czech hideDesCZ">Popis</span>
-           <span class="english hideDesEN">Description</span>
-           <span class="french hideDesFR"></span>
+            <input id="checkDes" type="checkbox" value="option2" disabled checked>
+            <span class="hideMap czech">Popis</span>
+            <span class="hideMap english">Description</span>
           </label>
-
         </form>
-
 
         <div class="col-xs-12 col-sm-12 col-md-6 mapsec">
           <div id="map" class="map"></div>
@@ -177,16 +175,6 @@
       <div class="container paticka">
         <span class="czech">&copy; Ing. Renata Duchnová s použitím knihovny <a href="http://getbootstrap.com"><i>Bootstrap</i></a></span>
         <span class="english">&copy; Ing. Renata Duchnová with contributions of <a href="http://getbootstrap.com"><i>Bootstrap</i></a> library</span>
-<!--
-        <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="czech">Jazyk</span><span class="english">Language</span><span class="french">Langue</span> <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="javascript:chooseStyle('none', 60)">Česky</a></li>
-                      <li><a href="javascript:chooseStyle('english', 60)">English</a></li>
-                      <li><a href="javascript:chooseStyle('french', 60)">Fran&ccedil;ais</a></li>
-                    </ul>
-                </li>
--->
       </div>
     </footer>
 
