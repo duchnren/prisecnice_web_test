@@ -35,6 +35,10 @@ h1, h2, h3 {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+.down {
+  color: #dbc97f;
+}
+
 aside {
   float: left;
   margin-right: 15px;
@@ -251,11 +255,14 @@ input[type=range] {
 
 .checkbox-inline {
   color: #ababab;
-}
-
-.hideMap{
   width: 120px;
 }
+
+/*
+.hideMap{
+  width: 150px;
+}
+*/
 
 .modelsec {
   float: right;

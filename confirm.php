@@ -215,11 +215,13 @@ $headers = 'From: '.$email_from."\r\n".
                   </a></li>
                 </ul>
               </li>
+<!--
               <li><a href="about.html">
               <span class="czech">O Projektu</span>
               <span class="english">About</span>
               <span class="french">A propos du projet</span>
               </a></li>
+-->
               <li><a href="contakt.html">
               <span class="czech">Kontakt</span>
               <span class="english">Contact</span>
